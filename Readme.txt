@@ -1,5 +1,5 @@
 Bomberman
-Clásico juego Bomberman. El protagonista se mueve en un laberinto. Puede poner bombas pulsando espacio, pero tiene que desplazarse rapidamente y salir de la fila y columna porque la expansion de la bomba mata todo lo que hay en esa fila columna incluidos los malos. Los malos te matan si los tocas pero no ponen bombas. Hay 2 tipos de paredes que forman un laberinto (tipo pacman), una explotable (blanca) con la bomba y otra no explotable. Con la Tecla P=Pausa se detiene el juego. 
+Clásico juego Bomberman. El protagonista se mueve en un laberinto. Puede poner bombas pulsando espacio, pero tiene que desplazarse rapidamente y salir de la fila y columna porque la expansion de la bomba mata todo lo que hay en esa fila columna incluidos los malos. Los malos te matan si los tocas pero no ponen bombas. Hay 2 tipos de paredes que forman un laberinto (tipo pacman), una explotable (blanca) con la bomba y otra no explotable. Con la Tecla P=Pausa se detiene el juego. Aleatoriamente se crean premios que el prota puede comer, ganando puntos, velocidad y vidas.
 
 Cada vez que hace un new a una clase Thread se arranca un hilo de ejecucion independiente paralelo.
 
