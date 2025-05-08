@@ -1,0 +1,49 @@
+ranking: Usa una clase auxiliar jugador q ni comentare (puntos nombre)
+	Mranking: Muestra el ranking (crea panel y muestra)
+	cargaVector: Carga el archivo ranking.info
+	ordenaVector: Ordena los players segun puntuacion
+	guardaPlayer: Escribe el fichero ranking.info quedandose con los 5 mejores
+
+presentacion: contiene la pantalla inicial que te da la bienvenida
+
+puntuacion: parte grafica de la derecha durante la partida
+
+situacion:
+	situacion pide memoria para el tablero (array de casillas)
+	cargaPantalla: le dices q pantalla ha de cargar y te la carga (lee de fichero y lo vuelva sobre la estructura)
+
+tablero: muestra la partida por pantalla
+	cargamapa -> llama a carga pantalla de "situacion"
+	finito-> pone over a 1 -> hara q salga por pantalla game over
+	muerto -> saldra por pantalla has mort
+	finpantalla-> INDICA 	que has pasado un nivel
+
+
+teclado : caputra las teclas pulsadas
+
+bomba: habla por si sola
+
+bueno:
+	coloca: coloca al prota en la pantalla
+	lanzabomb: llama al lanzabomba  del ppal
+	movimiento: comprueba si un movimiento es valido
+
+casilla:
+	rellenacas: se le llama desde carga de pantalla. te llena las capas q de los objetos q le digas
+	addcapa: recibe una capa y actua segun la han colocado
+	getopcion: se basa en un numero aleatorio para decir q item va debajo de una pared falsa
+	getcapa: devuelve la capa q se ha de mostrar
+	quitcapa: quita una capa de la pila
+
+malo1:
+
+
+opciones: pantalla donde escoges la modalidad de juego
+
+partida: datos de la partida
+
+ppal
+	inicializaNivel: segun el nivel en el q se encuentre el jugador se inicializa
+	creaBomba: crea una bomba
+	ponprota: coloca al prota en un nivel
+	arranca: arranca los malos
